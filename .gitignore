@@ -1,0 +1,63 @@
+# Archivos de compilación de Java
+*.class
+
+# Directorios de compilación
+bin/
+build/
+target/
+out/ # Para proyectos Gradle o IntelliJ IDEA
+
+# Archivos JAR, WAR, EAR, etc.
+*.jar
+*.war
+*.ear
+*.zip
+*.gz
+*.bz2
+
+# Archivos generados por Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Archivos generados por Gradle (si aplica, 'build/' ya está incluido)
+.gradle/
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos de configuración de IDEs (IntelliJ IDEA, Eclipse, VS Code)
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.externalToolBuilders/
+.metadata/
+*.iml
+*.iws
+*.ipr
+
+# Archivos temporales del sistema operativo
+*~
+#*#
+.#*
+*.bak
+*.swp
+*.swo
+
+# Directorios y archivos temporales/de caché específicos del proyecto
+tmp/
+temp/
+archive/ # Directorio de archivos archivados mencionado en el código
+test-output/
+src/main/resources/config/ # Si tienes archivos de configuración de entorno aquí que no deberían ser versionados (e.g., prod vs dev)
+
+# Archivos de configuración de entorno (ej. para bases de datos, credenciales)
+# Si manejas configuraciones sensibles con archivos .properties o .env
+*.properties
+*.env
